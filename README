@@ -1,4 +1,7 @@
 # Sucasa Keylogger
 ## These scripts are provided as-is with no guarantee of quality and only for use as educational tools. 
 ------
-As of the moment the script will work about anywhere with python installed but the injector only works on linux distributions with wget
+As of the moment the script will work about anywhere with python installed but the injector only works on linux distributions with wget or windows systems with powershell available,
+basic script execution possible, etc. 
+
+Assisted injection method coming soon! (Usb loaded with relevant files + rubber ducky combo for systems incapable of pulling data from remotes and the likes.)
