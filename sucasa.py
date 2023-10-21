@@ -4,7 +4,7 @@ import random
 import datetime
 
 dat = "" # Holds all the data from target input
-dbg = True # Wether or not its on debug mode
+dbg = False # Wether or not its on debug mode
 log = True # Wether or not it will generate logs
 id = 0 # If logs are enabled (default yes) this will hold the ID generated on script start
 
